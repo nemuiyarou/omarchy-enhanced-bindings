@@ -1,0 +1,84 @@
+# Omarchy Enhanced Bindings - .gitignore
+
+# Backup files created during testing
+*.backup
+*.backup.*
+*.orig
+*.bak
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.#*
+\#*#
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.vim/
+
+# Test output and logs
+test_output.txt
+install.log
+debug.log
+*.log
+
+# User-specific configuration that shouldn't be shared
+user_config/
+local_config/
+personal_bindings.conf
+
+# Development and testing artifacts
+node_modules/
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Archive files (in case someone creates zips/tars of the project)
+*.zip
+*.tar.gz
+*.tar.bz2
+*.rar
+*.7z
+
+# Git patch files
+*.patch
+*.diff
+
+# Any local test installations
+test_install/
+local_test/
+
+# Documentation build artifacts (if we ever add automated docs)
+docs/_build/
+docs/build/
+
+# Python cache (in case any Python scripts are added later)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Compiled binaries (unlikely but just in case)
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+*.out
+*.app
